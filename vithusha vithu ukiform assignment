@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>ukiform</title>
+<style>
+  td{padding:15px}
+</style>
+</head>
+<body >
+  <h1 style="text-align:center"> Uki Student</h1>
+  <center>
+<div style="background-color:lightblue;width: 650px; height: 750px; text-align:left;">
+<fieldset>
+  <legend>Uki.life</legend>
+<table>
+    <tr>
+      <td>first Name: </td> <td>  <input type="text"name="f.name"> </td>
+    </tr>
+  <tr>
+    <td>Last Name: </td> <td> <input type="text"name="l.name"> </td>
+  </tr>
+  <tr>
+    <td>Reg No: </td> <td> <input type="text"name="r.no"></td>
+  </tr><br>
+  <tr>
+    <td>Date of Birth: </td> <td> <input type="text"name="D.o.birth"></td>
+  </tr>
+  <tr>
+    <td>Gender:</td> <td> <input type="radio"name="genter"ualue="Male">Male
+      <input type="radio"name="genter"ualue="Female">Female</td>
+ </tr>
+ </table>
+Favourite Subjects:<br><input type="checkbox"name="English"ualue="English">English
+                   <input type="checkbox"name="Personal coaching"ualue="Personal coaching">Personal coaching
+                   <input type="checkbox"name="Web Devlopment"ualue="Web Devlopment">Web Devlopment
+                   <input type="checkbox"name="Programming"ualue="Programming">Programming<br><br>
+Feedback:<br>
+<table>
+<tr>
+  <td></td>
+  <td></td>
+  <td><textarea rows="15"cols="60"></textarea></td>
+</tr>
+</table>
+<center>
+      <input type="Reset" value="Reset">
+      <input type="Submit" value="Submit">
+</center>
+</fieldset>
+</div>
+</div>
+</center>
+</body>
+</html>

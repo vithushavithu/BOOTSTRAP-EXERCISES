@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>Timetable</title>
+  <style>
+    table,th,td{border-collapse:collapse;border: 1px solid black;}
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center"> Timetable</h1>
+<center>
+<table>
+  <tr class="a" style="background-color:#4775d1">
+    <th>Time slot</th>
+    <th style="width:250px;">Monday</th>
+    <th style="width:300px;">Tuesday</th>
+    <th style="width:250px;">Wednesday</th>
+    <th style="width:250px;">Thursday</th>
+    <th style="width:300px;">Friday</th>
+  </tr>
+  <tr class="b">
+    <td style="background-color:#8080ff">9-9.30</td>
+    <td style="background-color:#99ccff">Yoga and Meditation</td>
+    <td rowspan="2" style="background-color:#ffff00">Personal Coaching 9.15 to 11.15</td>
+    <td style="background-color:#99ccff">Yoga and Meditation</td>
+    <td style="background-color:#99ccff">Yoga and Meditation</td>
+    <td rowspan="2" style="background-color:#ffff00">Personal Coaching 9.15 to 11.15</td>
+  </tr>
+  <tr class="c" style="background-color:#ff8080">
+      <td style="background-color:#8080ff">9.30-10</td>
+      <td style="background-color:#99ccff;">Touchtyping and Blogging</td>
+      <td rowspan="2" colspan="2">English-BC Elementary</td>
+  </tr>
+  <tr class="d">
+    <td style="background-color:#8080ff">10-12</td>
+    <td style="background-color:#ac00e6">Programming Theory</td>
+    <td style="background-color:#99ccff">Personal Coaching/Touchtyping and <br> Blogging</td>
+    <td style="background-color:#99ccff">Personal Coaching/Touchtyping and <br> Blogging</td>
+  </tr>
+  <tr class="e" style="background-color:#00e600">
+    <td style="background-color:#8080ff">12-1</td>
+    <td colspan="5" style="text-align:center">Lunch Break-Carom, Badminton</td>
+  </tr>
+  <tr class="f" style="background-color:#ac00e6">
+    <td style="background-color:#8080ff">1-2</td>
+    <td>Programming Practicals</td>
+    <td>Programming theory</td>
+    <td>Programming theory</td>
+    <td>Programming Theory</td>
+    <td>Programming Theory</td>
+  </tr>
+  <tr class="g" style="width:10px;">
+    <td style="background-color:#8080ff">2-4</td>
+    <td style="background-color:#ac00e6">Programming Practicals<br>Project</td>
+    <td style="background-color:#ac00e6">Programming Practicals Project</td>
+    <td style="background-color:#ac00e6">Programming Practicals<br>Project</td>
+    <td style="background-color:#ac00e6">Programming Practicals<br>Project</td>
+    <td style="background-color:#ac00e6">Programming Practicals Project</td>
+  </tr>
+  <tr class="h" style="background-color:#00e600">
+    <td style="background-color:#8080ff">4-4.15</td>
+    <td colspan="5" style="text-align:center">Tea Break</td>
+  </tr>
+  <tr class="i">
+    <td style="background-color:#8080ff">4.15-5</td>
+    <td style="background-color:#e6ac00">Tech Talk</td>
+    <td style="background-color:#e60000">Toastmasters Gavel Club</td>
+    <td style="background-color:#e6ac00">Team Building</td>
+    <td style="background-color:#e6ac00">Team outing/Tech Movie</td>
+    <td style="background-color:#e60000">Toastmasters Gavel Club</td>
+  </tr>
+</table>
+</center>
+</body>
+</html>

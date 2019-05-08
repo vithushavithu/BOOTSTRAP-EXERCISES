@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example 01</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <style>
+  .pink-option{
+    background-color: #ffb6c1;
+  }
+  .dropdown-menu{
+    border: 1px solid red;
+    padding: 0px;
+  }
+  .dropdown-divider{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+  </style>
+<div class="container">
+
+  <div class="dropdown">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+      Button Dropdown Menu
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item pink-option" >Home</a>
+      <a class="dropdown-item pink-option" >Bootstrap</a>
+      <a class="dropdown-item pink-option" >jQuery</a>
+      <a class="dropdown-item pink-option" >jQuery</a>
+      <div class="dropdown-divider" style="border-color:red;"></div>
+      <a class="dropdown-item pink-option" >PHP</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

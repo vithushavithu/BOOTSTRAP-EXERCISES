@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Bootstrap Example 02</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+      ul.navbar-nav{
+        color:white;
+        font-weight:bold;
+      }
+      .nav-link:hover{
+        color:white;
+        background-color: #4d4dff;
+      }
+      .drop2{
+        background-color: #4d4dff;
+        border-color: #4d4dff;
+        color:white;
+        font-weight: bold;
+      }
+ </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-info navbar-info">
+  <ul class="navbar-nav">
+      <li class="nav-item">
+      <a class="nav-link">HOME</a>
+    </li>
+  <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown">MENUS</a>
+      <div class="drop2 dropdown-menu">
+        <a class="dropdown-item color-option">Menu 2</a>
+        <a class="dropdown-item color-option nav-link dropdown-toggle" data-toggle="dropdown">Menu 1</a>
+        <div class="drop2 dropdown-menu">
+          <a class="dropdown-item color-option">Menu 1.1</a>
+          <a class="dropdown-item color-option">Menu 1.2</a>
+      </div>
+
+      </div>
+    </li>
+        <li class="nav-item">
+          <a class="nav-link">SETTINGS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">CONTACT</a>
+        </li>
+   </ul>
+   </nav>
+
+<br>
+<div class="container"></div>
+</body>
+</html>
